@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<section class="p-strip--suru-topped">
+  <div class="row">
+    <div class="col-8">
+      <h1>Siobhan Dillon</h1>
+      <p>Stylist - Costume designer</p>
+    </div>
+  </div>
+</section>
+<section class="p-strip">
+  <div class="row">
+    <div class="col-8">
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
