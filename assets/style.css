@@ -23,3 +23,18 @@ body {
   padding-bottom: 0;
   padding-top: 6rem;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-footer {
+  flex: 1;
+  justify-content: end;
+}
